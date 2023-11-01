@@ -16,3 +16,10 @@
 <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
      data-sly-call="${clientlib.css @ categories='aemgeeks.base'}"/>
 <sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+
+<!-- Inclucing page details here -->
+<sly data-sly-use.page="com.aem.geeks.core.models.PageDetails">
+     <div data-sly-test="${page.pageName} class="page-name">
+       Page Name: ${page.pageName}
+     </div>
+</sly>

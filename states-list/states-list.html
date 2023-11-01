@@ -1,0 +1,14 @@
+<sly data-sly-use.stateList="com.aem.geeks.core.models.StatesList">
+   <div data-sly-test="${stateList.states}" class="card-body">
+      <label for="statesList">Choose a state:</label>
+      <select name="states" id="states">
+         ================== USING LIST ================
+         <option value="option">Select State</option>
+         <sly data-sly-list.item="${stateList.states}">
+            <option value="${item.stateValue}">${item.stateName}</option>
+         </sly>
+      </select>
+   </div>
+</sly>
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"
+    data-emptytext="Click to edit ${component.properties.jcr:title}"></div>

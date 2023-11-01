@@ -1,0 +1,14 @@
+<sly data-sly-use.file="com.aem.geeks.core.models.Multimedia">
+   <div class="multi_media_component">
+      <sly data-sly-test="${file.mimeTypeImage}">
+         <img src="${file.imageRef}" alt="${file.altText}" width="1000" height="500">
+      </sly>
+      <sly data-sly-test="${file.mimeTypeVideo}">
+         <video width="600" height="400" controls autoplay>
+            <source src="${file.imageRef}" type="${file.mimeTypeVideo}">
+         </video>
+      </sly>
+   </div>
+</sly>
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"
+    data-emptytext="Click to edit ${component.properties.jcr:title}"></div>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <andhraPradesh
+        jcr:primaryType="nt:unstructured"
+        text="Andhra pradesh"
+        value="andhra"/>
+    <tamilnadu
+        jcr:primaryType="nt:unstructured"
+        text="Tamilnadu"
+        value="tamil"/>
+    <kerala
+        jcr:primaryType="nt:unstructured"
+        text="Kerala"
+        value="kerala"/>
+    <telangana
+        jcr:primaryType="nt:unstructured"
+        text="Telangana"
+        value="telangana"/>
+    <karnataka
+        jcr:primaryType="nt:unstructured"
+        text="Karnataka"
+        value="karnataka"/>
+    <orissa
+        jcr:primaryType="nt:unstructured"
+        text="Orissa"
+        value="orissa"/>
+    <Bihar
+        jcr:primaryType="nt:unstructured"
+        text="Bihar"
+        value="bihar"/>
+    <newDelhi
+        jcr:primaryType="nt:unstructured"
+        text="New delhi"
+        value="delhi"/>
+</jcr:root>

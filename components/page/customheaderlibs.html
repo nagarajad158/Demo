@@ -23,3 +23,7 @@
        Page Name: ${page.pageName}
      </div>
 </sly>
+
+<sly data-sly-use.page="${currentPage.path}">
+	<h1 data-sly-test="${page}">The current page name is: ${page.name}</h1>
+</sly>
